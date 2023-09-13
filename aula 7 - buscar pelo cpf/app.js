@@ -1,21 +1,21 @@
 'use strict'
+const input = document.getElementById('cep')
 
 async function pegarInformacoes(){
-
-    const url =  'viacep.com.br/ws/01001000/json/'
+    const url = ' https://viacep.com.br/ws/01001000/json/'
 
     const response = await fetch(url)
     const informacoes = await response.json()
     return informacoes.message
 }
 
-function criarTag(informacoes){
-    const informacoes = document.getElementById('card-container')
+function criarCard (informacao){
+    const infomacao = document.getElementById('cep')
 }
 
-async function carregarInformacoes(){
+async function pegarInformacoes(){
     const informacoes = await pegarInformacoes()
-    informacoes.forEach(criarTag);
+    informacoes.forEach(criarCard);
 }
 
-carregarInformacoes() 
+input.addEventListener('blur', pegarInformacoes)

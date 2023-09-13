@@ -1,0 +1,17 @@
+d, o, k, m
+
+situação D:
+ler as 4 notas bimestrais de um aluno, e calcular a media, se a nota for maior ou igual a 7 tem que aparecer a mensagem "aprovado"
+se a nota for menor, o programa deve pedir a quinta nota e calcular a media novamente se a nova media for maior ou igual a 5 
+tem que aparecer a mensagem "aprovado em exame" caso a nota for menor que 5 "reprovado" informando o valor da media obtida 
+
+situação O:
+pedir para o usuario digitar um numero qualquer, multiplica-lo por dois e só apresentar o resultado da multiplicação se for maior que 30 
+
+situação K:
+pedir um numero entr 1-9, se estiver na faixa  deve aparecer a mensagem " o vlor está na faixa permitida, caso o numero for maior deve
+aparecer " o valor esta fora da faixa permitida 
+
+situação M:
+solicitar a entrada do nome e do sexo do usuario, caso o sexo for M, a mensagem de bem vindo deve ter sr. se o sexo informado for F 
+a mensagem de bem vindo deve ter sra. com o nome informado se digitar qualquer outra coisa, o programa deve aparecer "sexo informado invalido" 

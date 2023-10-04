@@ -41,7 +41,7 @@ main{
     width: 186px;
     grid-area: 1 / 1 / 2 / 2;
     border-radius: 50px;
-    
+}   
 
 .card1 img{
     width: 185px;

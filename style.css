@@ -63,7 +63,6 @@ tr, td{
 thead th{
     padding: 2px;
     font-size: 1.5rem;
-    gap: 20px;
 }
 
 thead th:nth-child(1){

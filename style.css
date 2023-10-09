@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./img/fundo-bonito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tabela{
+    background: #89B8FF;
+    border-radius: 50px;
+    width: 715px;
+    height: 521px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: bolder;
+}
+
+a, table{
+    text-decoration: none;
+    color: rgb(16, 95, 168);
+}
+
+a:hover{
+    text-decoration: underline rgb(12, 12, 59);
+}
+
+
+
+tr, td{
+    padding: 4px;
+    font-size: 1.2rem;
+}
+
+thead th{
+    padding: 2px;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+
+thead th:nth-child(1){
+    width: 30%;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}

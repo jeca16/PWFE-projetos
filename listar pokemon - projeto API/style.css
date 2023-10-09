@@ -139,4 +139,11 @@ main{
     height: 120px;
 }
 
-
+a{
+    color: #DB6E30;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: none;
+}

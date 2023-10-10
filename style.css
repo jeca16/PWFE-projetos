@@ -5,9 +5,7 @@
 }
 
 body{
-    background-image:url(./img/fundo-bonito.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #4e95ff;
     height: 100vh;
 }
 

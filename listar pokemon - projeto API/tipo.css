@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 86vw;
+    background-color: #FFF2C6;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-image: url(./img/International_Pokémon_logo.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 20vh;
+    align-items: center;
+    justify-content: flex-end; 
+    display: flex;
+}
+main{
+    height: 60vh;
+}
+.tipos{
+    height: 100%;
+    width: 95vw;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(3, 179px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.tipo{
+    height: 130px;
+    width: 130px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #ffff;
+    border-radius: 100px;
+}
+.tipo1{
+    float: right;
+}
+.tipo1 img{
+    height: 130px;
+    width: 130px;
+}
+
+.tipo2{
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.tipo2 img{
+    height: 150px;
+    width: 150px;
+    background-size: 100%;
+}
+
+.tipo3{
+    grid-area: 1 / 3 / 2 / 4;
+}
+.tipo3 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo4{
+    grid-area: 1 / 4 / 2 / 5;
+}
+.tipo4 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo5{
+    grid-area: 1 / 5 / 2 / 6;
+}
+.tipo5 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo6{
+    grid-area: 1 / 6 / 2 / 7;
+}
+.tipo6 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo7{
+    grid-area: 2 / 1 / 3 / 2; 
+}
+.tipo7 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo8{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.tipo8 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo9{
+    grid-area: 2 / 3 / 3 / 4;
+}
+.tipo9 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo10{
+    grid-area: 2 / 4 / 3 / 5;
+}
+.tipo10 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo11{
+    grid-area: 2 / 5 / 3 / 6;
+}
+.tipo11 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo12{
+    grid-area: 2 / 6 / 3 / 7;
+}
+.tipo12 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo13{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.tipo13 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo14{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.tipo14 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo15{
+    grid-area: 3 / 3 / 4 / 4;
+}
+.tipo15 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo16{
+    grid-area: 3 / 4 / 4 / 5;
+}
+.tipo16 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo17{
+    grid-area: 3 / 5 / 4 / 6;
+}
+.tipo17 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo18{
+    grid-area: 3 / 6 / 4 / 7; 
+}
+.tipo18 img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipo19 img{
+    height: 100%;
+    width: 100%;
+}

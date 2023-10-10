@@ -28,10 +28,10 @@
 @media (max-width: 425px) {
     .cards{
         display: grid;
-    grid-template-columns: repeat(2, 170px);
-    grid-template-rows: repeat(5, 170px);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+        grid-template-columns: repeat(2, 170px);
+        grid-template-rows: repeat(5, 170px);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
     }
 
     header{

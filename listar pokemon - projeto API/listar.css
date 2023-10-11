@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100%;
     background-color: #FFF2C6;
 }
 
-header{
+header {
     background-image: url(./img/International_Pokémon_logo.svg.png);
     background-repeat: no-repeat;
     background-size: contain;

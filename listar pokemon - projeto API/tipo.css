@@ -73,18 +73,9 @@ main {
 .tipo1 img {
     height: 100%;
     width: 100%;
-    background-color: #ffff;
     border-radius: 100px;
 }
 
-.tipo1 {
-    float: right;
-}
-
-.tipo1 img {
-    height: 130px;
-    width: 130px;
-}
 
 .tipo2 {
     grid-area: 1 / 2 / 2 / 3;
@@ -94,11 +85,6 @@ main {
 .tipo2 img {
     height: 100%;
     width: 100%;
-}
-
-.tipo2 img {
-    height: 150px;
-    width: 150px;
 }
 
 .tipo3 {

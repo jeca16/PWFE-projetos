@@ -47,12 +47,13 @@ function media() {
     } else if (total < 7) {
         let NotaExame = prompt('Digite a quinta nota')
         media.textContent = NotaExame
-        const total2 = (nota1 + nota2 + nota3 + nota4 + NotaExame) / 4
-        if (total2 >= 5) {
-            mensagem = (total2 + 'Aprovado em exame!')
+        
+        const novoTotal = (nota1 + nota2 + nota3 + nota4 + NotaExame) / 4
+        if (novoTotal >= 5) {
+            mensagem = (novoTotal + 'Aprovado em exame!')
             media.textContent = mensagem
         } else {
-            mensagem = (total2 + 'REPROVADO!')
+            mensagem = (novoTotal + 'REPROVADO!')
         }
     } 
     

@@ -67,7 +67,7 @@ const criarCard = (mensagens) => {
     card.classList.add('card')
 
     const imagem = document.createElement('img')
-    imagem.src = `./img/${mensagens.imagem}`
+    imagem.src =  `./img/${mensagens.imagem}`
     imagem.alt = mensagens.imagem 
 
     const name = document.createElement('h2')

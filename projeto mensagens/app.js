@@ -70,6 +70,8 @@ const criarCard = (mensagens) => {
     imagem.src =  `./img/${mensagens.imagem}`
     imagem.alt = mensagens.imagem 
 
+    const personagem = document.createElement('div')
+    personagem.classList.add('personagem')
     const name = document.createElement('h2')
     name.textContent = mensagens.nome
 
@@ -82,7 +84,16 @@ const criarCard = (mensagens) => {
     const time = document.createElement('h5')
     time.textContent = mensagens.tempo
 
-    card.replaceChildren(imagem, name, mens, cont, time)
+    const dados=document.createElement('div')
+    dados.classList.add('dados')
+
+    const info = document.createElement('div')
+    info.classList.add('info')
+
+    dados.replaceChildren(imagem,personagem)
+    personagem.replaceChildren(name,mens)
+    info.replaceChildren(time,cont)
+    card.replaceChildren(dados, info)
     return card
 }
 

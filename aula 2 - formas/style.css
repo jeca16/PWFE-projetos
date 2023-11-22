@@ -52,10 +52,10 @@
 }
 
 .imagem{
-    background-image: url(./img/simbolo_acotar-removebg-preview.png);
+    background-image: url(./img/acotar.png);
     background-size: cover;
     background-color: transparent;
-    transition: .5s;
+    transition: 2ms;
     border-radius: 50%;
 }
 

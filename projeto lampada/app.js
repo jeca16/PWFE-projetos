@@ -5,7 +5,7 @@ const desligar = document.getElementById('desligar')
 const lampada = document.getElementById('lampada')
 
 function lampadaQuebrada (){
-    return lampada.scroll.indexOf ('quebrada') > -1
+    return lampada.scroll.indexOff ('quebrada') > -1
 }
 
 function lampadaLigada (){

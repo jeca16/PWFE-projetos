@@ -5,7 +5,7 @@ const desligar = document.getElementById('desligar')
 const lampada = document.getElementById('lampada')
 
 function lampadaQuebrada (){
-    return lampada.scroll.indexOff ('quebrada') > -1
+    return lampada.scroll()
 }
 
 function lampadaLigada (){
@@ -27,5 +27,4 @@ function lampQuebrada (){
 ligar.addEventListener( 'click', lampadaLigada)
 desligar.addEventListener( 'click', lampadaDesligada)
 lampada.addEventListener( 'mouseover', lampadaLigada)
-lampada.addEventListener( 'mouseover', lampadaDesligada)
 lampada.addEventListener( 'dblclick', lampQuebrada)

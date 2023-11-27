@@ -31,11 +31,11 @@ function identificar() {
 }
 
 function media() {
-    const nota1 = Number(document.getElementById('nota-item3').value)
-    const nota2 = Number(document.getElementById('nota2-item3').value)
-    const nota3 = Number(document.getElementById('nota3-item3').value)
-    const nota4 = Number(document.getElementById('nota4-item3').value)
-    const media = document.getElementById('media-item3')
+    let nota1 = Number(document.getElementById('nota-item3').value)
+    let nota2 = Number(document.getElementById('nota2-item3').value)
+    let nota3 = Number(document.getElementById('nota3-item3').value)
+    let nota4 = Number(document.getElementById('nota4-item3').value)
+    let media = document.getElementById('media-item3')
 
     const total = (nota1 + nota2 + nota3 + nota4) / 4
 
@@ -47,14 +47,17 @@ function media() {
     } else if (total < 7) {
         let NotaExame = prompt('Digite a quinta nota')
         media.textContent = NotaExame
-        
-        const novoTotal = (nota1 + nota2 + nota3 + nota4 + NotaExame) / 4
-        if (novoTotal >= 5) {
-            mensagem = (novoTotal + 'Aprovado em exame!')
-            media.textContent = mensagem
-        } else {
-            mensagem = (novoTotal + 'REPROVADO!')
+        let newMedia = parseFloat(media.textContent = NotaExame)
+
+        novaMedia = (total + newMedia)
+        mediaAtualizada =(novaMedia)/5
+
+        if(mediaAtualizada >= 5){
+            mensagem = (mediaAtualizada + 'aprovado em exame')
+        } else if (mediaAtualizada < 5){
+            mensagem = (mediaAtualizada + 'reprovado!!')
         }
+        
     } 
     
 }
